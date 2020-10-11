@@ -12,9 +12,6 @@
 <div class="homebody">
     <div class="container">
 
-
-
-
         <!-- SECTION 1 -->
 
         <!-- USED TO STYLE PICTURE-BODYSIZE IN HOME-PAGE  -->
@@ -37,7 +34,7 @@
                          {% if all_users %} {% for user in all_users %}
                             <strong> "{{user.user}}" </strong>
                         {% endfor %}{% else %}
-                        <strong>grammer</strong>
+                        <strong>satish</strong>
 
                         {% endif %}
                         </p>
@@ -54,19 +51,19 @@
 
                                 <span class="like-row">
                                     {% if liked %}
-                                    <img class"likedhrt" src="{% static 'images/liked.png' %}" alt="liked picture"class="img-responsive"> {% else %}
+                                    <img class=="likedhrt" src="{% static 'images/liked.png' %}" alt="liked picture"class="img-responsive"> {% else %}
                                     <img class="likehrt" src="{% static 'images/liked.png' %}" alt="not likedpicture" class="img-responsive"> {% endif %}
                                     <img class="commenthrt" id='comment-icon' src="../../static/images/comment.png"class="img-responsive" alt=" commentImage">
                                     <img class="savehrt" src="{% static 'images/unsaved.png' %}" alt="save picture">
                                         
                                     </p>
                                 </span>
-                                <p><strong>5 likes</strong> </p>
+                                <p><strong>500 likes</strong> </p>
                         <!-- Caption Section -->
                         {% if all_users %} {% for user in all_users %}
                         <strong> "{{user.user}}" </strong>
                         {% endfor %}{% else %}
-                        <p><strong>grammer</strong> {{collins.image_caption}}</p>
+                        <p><strong>User</strong> {{collins.image_caption}}</p>
                         
                         {% endif %} 
 
